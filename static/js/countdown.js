@@ -1,4 +1,4 @@
-var deadline = new Date("Dec 1, 2022 23:00:00").getTime();
+var deadline = new Date("Jan 21, 2023 11:00:00").getTime();
 var x = setInterval(function() {
 var now = new Date().getTime();
 var t = deadline - now;
@@ -8,31 +8,31 @@ var hours = Math.floor((t%(1000 * 60 * 60 * 24))/(1000 * 60 * 60));
 var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
 var seconds = Math.floor((t % (1000 * 60)) / 1000);
 if(days<10){
-	document.getElementById("days").innerHTML = "0"+ days ;
+	document.getElementById("days").innerHTML = "0"+ days+" D" ;
 }
 else{
-	document.getElementById("days").innerHTML = days ;
-}
+	document.getElementById("days").innerHTML = days+" D" ;
+} 
 
 if(hours<10){
-	document.getElementById("hours").innerHTML = "0"+ hours ;
+	document.getElementById("hours").innerHTML = "0"+ hours+" :H" ;
 }
 else{
-	document.getElementById("hours").innerHTML = hours ;
+	document.getElementById("hours").innerHTML = hours +" H";
 }
 
 if( minutes<10){
-	document.getElementById("minutes").innerHTML = "0"+ minutes;
+	document.getElementById("minutes").innerHTML = "0"+ minutes+" M";
 }
 else{
-	document.getElementById("minutes").innerHTML = minutes;
+	document.getElementById("minutes").innerHTML = minutes+" M";
 }
 
 if(seconds<10){
-	document.getElementById("seconds").innerHTML = "0"+ seconds;
+	document.getElementById("seconds").innerHTML = "0"+ seconds+" S";
 }
 else{
-	document.getElementById("seconds").innerHTML = seconds;
+	document.getElementById("seconds").innerHTML = seconds+" S";
 }
 	if (t < 0) {
 		clearInterval(x);
