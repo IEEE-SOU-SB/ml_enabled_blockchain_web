@@ -73,7 +73,6 @@ address {
   font-style: normal;
   line-height: inherit; }
 
-
 a {
   color: #007bff;
   text-decoration: none;
@@ -186,10 +185,13 @@ h1, h2, h3, h4, h5,
 }
 
 .contact-wrap {
-  background: #fff; }
+  background: #fff; 
+  box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2), 0 7px 21px 0 rgba(0, 0, 0, 0.19);
+}
 
 .info-wrap h3 {
-  color: #fff; }
+  color: #fff;
+ }
 
 .info-wrap .dbox {
   width: 100%;
