@@ -1,206 +1,206 @@
  /* Header */
  #section-top-bar {
-   border-bottom: 1px solid #eceef0;
-   width: 100%;
-   display: flex;
-   box-sizing: border-box;
-   background-color: #ffffff;
- }
+  border-bottom: 1px solid #eceef0;
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
 
- .row {
-   font-style: normal;
-   font-size: medium;
-   display: flex;
- }
+.row {
+  font-style: normal;
+  font-size: medium;
+  display: flex;
+}
 
- /* NAV-BAR */
- .nav-item {
-   margin: 3vh 2vw 0 2vw;
-   font-weight: bolder;
-   color: black;
- }
+/* NAV-BAR */
+.nav-item {
+  margin: 3vh 2vw 0 2vw;
+  font-weight: bolder;
+  color: black;
+}
 
- .nav-link {
-   color: black !important;
- }
+.nav-link {
+  color: black !important;
+}
 
- .btn {
-   border-radius: 2vw;
-   margin-top: 1vh;
-   margin-bottom: 1vh;
- }
+.btn {
+  border-radius: 2vw;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
 
- .navbar {
-   position: absolute;
-   width: 100%;
-   border-radius: 0 0 2.5rem 2.5rem;
-   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-   background-color: white;
- }
+.navbar {
+  position: absolute;
+  width: 100%;
+  border-radius: 0 0 2.5rem 2.5rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+}
 
- .navbar-brand {
-   margin-left: 2vw;
- }
+.navbar-brand {
+  margin-left: 2vw;
+}
 
- .main-container {
-   display: flex;
-   align-items: center;
-   justify-content: flex-end;
-   /* background-size: auto; */
-   background-size: 100% auto;
- }
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  /* background-size: auto; */
+  background-size: 100% auto;
+}
 
- /* carousel */
- .image-container {
-   width: 100%;
-   height: 100vh;
-   position: absolute;
-   top: 0;
-   z-index: -1;
- }
+/* carousel */
+.image-container {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
 
- .carousel-item {
-   width: 100%;
-   height: 100vh;
- }
+.carousel-item {
+  width: 100%;
+  height: 100vh;
+}
 
- .carousel-image {
-   width: 100%;
-   height: 100vh;
-   object-fit: cover;
- }
+.carousel-image {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
 
- /* notification timmer */
- .toddle {
-   width: 460px;
-   height: 250px;
-   background-color: rgba(0, 0, 0, 0.6);
-   color: white;
-   border-radius: 8%;
-   text-align: center;
-   padding-top: 15px;
-   margin: 10rem 0;
- }
+/* notification timmer */
+.toddle {
+  width: 460px;
+  height: 250px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  border-radius: 8%;
+  text-align: center;
+  padding-top: 15px;
+  margin: 10rem 0;
+}
 
- .timer {
-   border: 2px solid white;
-   padding: 9px;
-   margin-left: 5px;
-   border-radius: 55%;
-   color: black;
-   background-color: white;
- }
+.timer {
+  border: 2px solid white;
+  padding: 9px;
+  margin-left: 5px;
+  border-radius: 55%;
+  color: black;
+  background-color: white;
+}
 
- #days,
- #hours,
- #minutes,
- #seconds {
-   color: black;
-   margin-left: 2px;
- }
+#days,
+#hours,
+#minutes,
+#seconds {
+  color: black;
+  margin-left: 2px;
+}
 
- #days {
-   margin-right: 5px;
- }
+#days {
+  margin-right: 5px;
+}
 
- .remaining {
-   margin-bottom: 30px;
- }
+.remaining {
+  margin-bottom: 30px;
+}
 
- .contact-us {
-   background-color: antiquewhite;
- }
+.contact-us {
+  background-color: antiquewhite;
+}
 
- .heading {
-   text-align: center;
-   text-decoration: solid;
-   padding: 4%;
- }
+.heading {
+  text-align: center;
+  text-decoration: solid;
+  padding: 4%;
+}
 
- .info {
-   display: flex;
-   align-content: space-between;
- }
+.info {
+  display: flex;
+  align-content: space-between;
+}
 
- .call {
-   box-sizing: initial;
-   border: 2px solid;
-   padding-left: 2%;
-   padding-right: 2%;
-   margin: auto;
- }
+.call {
+  box-sizing: initial;
+  border: 2px solid;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin: auto;
+}
 
- .e-mail {
-   box-sizing: initial;
-   border: 2px solid;
-   margin: auto;
-   padding-left: 2%;
-   padding-right: 2%;
- }
+.e-mail {
+  box-sizing: initial;
+  border: 2px solid;
+  margin: auto;
+  padding-left: 2%;
+  padding-right: 2%;
+}
 
- .contact-img {
-   margin: 20%;
-   justify-content: center;
+.contact-img {
+  margin: 20%;
+  justify-content: center;
 
- }
+}
 
- form {
-   text-align: center;
-   margin: auto;
-   font-weight: 20%;
-   font-size: large;
- }
+form {
+  text-align: center;
+  margin: auto;
+  font-weight: 20%;
+  font-size: large;
+}
 
- .buttonClass {
-   font-size: 26px;
-   font-family: Arial;
-   width: 147px;
-   height: 50px;
-   margin: auto;
-   border-width: 1px;
-   color: #333333;
-   border-color: #ffaa22;
-   font-weight: bold;
-   border-top-left-radius: 6px;
-   border-top-right-radius: 6px;
-   border-bottom-left-radius: 6px;
-   border-bottom-right-radius: 6px;
-   box-shadow: 0px 1px 0px 0px #fff6af;
-   text-shadow: 0px 1px 0px #ffee66;
-   background: linear-gradient(#ffec64, #ffab23);
- }
+.buttonClass {
+  font-size: 26px;
+  font-family: Arial;
+  width: 147px;
+  height: 50px;
+  margin: auto;
+  border-width: 1px;
+  color: #333333;
+  border-color: #ffaa22;
+  font-weight: bold;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  box-shadow: 0px 1px 0px 0px #fff6af;
+  text-shadow: 0px 1px 0px #ffee66;
+  background: linear-gradient(#ffec64, #ffab23);
+}
 
- .buttonClass:hover {
-   background: linear-gradient(#ffab23, #ffec64);
- }
+.buttonClass:hover {
+  background: linear-gradient(#ffab23, #ffec64);
+}
 
- .a_footer {
-   height: 300px;
-   background-color: #00123A !important;
-   width: 100% !important;
- }
+.a_footer {
+  height: 300px;
+  background-color: #00123A !important;
+  width: 100% !important;
+}
 
- .footer_text {
-   color: #fff;
-   font-family: 'Times New Roman', Times, serif;
- }
+.footer_text {
+  color: #fff;
+  font-family: 'Times New Roman', Times, serif;
+}
 
- .fb_logo {
-   color: #fff;
-   height: 50px !important;
+.fb_logo {
+  color: #fff;
+  height: 50px !important;
 
- }
+}
 
- .footer_space {
-   padding-left: 15px;
- }
+.footer_space {
+  padding-left: 15px;
+}
 
- .footer_text_2 {
-   text-align: left;
- }
+.footer_text_2 {
+  text-align: left;
+}
 
- .copyright {
-   text-align: center;
-   background-color: #00123A;
-   color: #fff;
- }
+.copyright {
+  text-align: center;
+  background-color: #00123A;
+  color: #fff;
+}
