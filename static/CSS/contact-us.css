@@ -12,11 +12,20 @@
   font-size: medium;
   display: flex;
 }
+.mainlogos
+{
+  background-color: #eceef0;
+  width: 100%;
+  height: 80px;
+  padding:1px 1px 20px 1px;
+
+}
 
 /* NAV-BAR */
 .nav-item {
   margin: 3vh 2vw 0 2vw;
   font-weight: bolder;
+  font-size: 13.5px;
   color: black;
 }
 
@@ -28,6 +37,8 @@
   border-radius: 2vw;
   margin-top: 1vh;
   margin-bottom: 1vh;
+  height: auto;
+  font-size: 16px;
 }
 
 .navbar {
@@ -97,6 +108,7 @@
 #seconds {
   color: rgb(244, 0, 0);
   margin-left: 2px;
+  font-size: 15px;
 }
 
 #days {
@@ -175,33 +187,9 @@ form {
   background: linear-gradient(#ffab23, #ffec64);
 }
 
-.a_footer {
-  height: 300px;
-  background-color: #00123A !important;
-  width: 100% !important;
-}
-
-.footer_text {
-  color: #fff;
-  font-family: 'Times New Roman', Times, serif;
-}
 
 .fb_logo {
   color: #fff;
   height: 50px !important;
 
-}
-
-.footer_space {
-  padding-left: 15px;
-}
-
-.footer_text_2 {
-  text-align: left;
-}
-
-.copyright {
-  text-align: center;
-  background-color: #00123A;
-  color: #fff;
 }
