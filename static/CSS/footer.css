@@ -83,12 +83,16 @@
 {
   .site-footer
   {
-    padding-bottom:0
+    padding-bottom:0;
   }
   .site-footer .copyright-text,.site-footer .social-icons
   {
     text-align:center
   }
+  .footer-links{
+    width: 10px;
+  }
+
 }
 .social-icons
 {

@@ -4,7 +4,7 @@
   width: 100%;
   display: flex;
   box-sizing: border-box;
-  background-color: #ffffff;
+  background-color: #fcfcfc;
 }
 
 .row {
@@ -55,12 +55,33 @@
 
 .main-container1 {
   display: flex;
+  position:sticky;
   align-items: center;
   justify-content: flex-end;
   /* background-size: auto; */
   background-size: 100% auto;
 }
+/* notification timmer */
+.toddle1 {
+  width: 350px;
+  height: 250px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 8%;
+  text-align: center;
+  color: #eceef0;
+  padding-top: 15px;
+  margin: 10rem 0;
+  position: relative;
+}
 
+.timer {
+  border: 2px solid white;
+  padding: 9px;
+  margin-left: 5px;
+  border-radius: 55%;
+  color: black;
+  background-color: white;
+}
 /* carousel */
 .image-container {
   width: 100%;
@@ -81,26 +102,7 @@
   object-fit: cover;
 }
 
-/* notification timmer */
-.toddle1 {
-  width: 460px;
-  height: 250px;
-  background-color: rgba(0, 0, 0, 0.6);
-  border-radius: 8%;
-  text-align: center;
-  color: #eceef0;
-  padding-top: 15px;
-  margin: 10rem 0;
-}
 
-.timer {
-  border: 2px solid white;
-  padding: 9px;
-  margin-left: 5px;
-  border-radius: 55%;
-  color: black;
-  background-color: white;
-}
 
 #days,
 #hours,
@@ -192,4 +194,214 @@ form {
   color: #fff;
   height: 50px !important;
 
+}
+
+.toggle{
+  float:right;
+  overflow: hidden;
+  
+}
+/* Add padding and border to inner content
+for better animation effect */
+.toddle{
+  width: 400px;
+  padding: 10px;
+}
+.white-box{
+  width:20px;
+  height: 330px;
+  margin-top: 180px;
+
+}
+
+.inner_box { 
+width: 20px; 
+height: 100px;
+margin-top: 30px;
+background: rgb(0, 122, 252);
+-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+-moz-box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+-ms-border-radius: 8px;
+-o-border-radius: 8px;
+border-radius: 8px;
+}
+
+@media (max-width: 480px) {
+  .toggle{
+    float:left;
+    overflow: hidden;
+    
+}
+/* Add padding and border to inner content
+for better animation effect */
+.toddle1{
+    width: auto;
+    padding: 10px;
+} 
+.toddle1 {
+  width: 50%;
+  height: 250px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 8%;
+  text-align: center;
+  color: #eceef0;
+  padding-top: 15px;
+  margin: 10rem 0;
+  position: relative;
+}
+.image-container {
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.carousel-item {
+  width: auto;
+  height: auto;
+}
+
+.carousel-image {
+  width: auto;
+  height: auto;
+  object-fit: cover;
+}
+
+.inner_box { 
+  width: 20px; 
+  height: 100px;
+  margin-top: 30px;
+  background: rgb(0, 122, 252);
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+  }
+  .main-container1 {
+    display: flex;
+    position:sticky;
+    align-items: center;
+    justify-content: flex-end;
+    width: auto;
+    /* background-size: auto; */
+    background-size: 100% auto;
+  }
+  /* notification timmer */
+  #days,
+#hours,
+#minutes,
+#seconds {
+  color: rgb(244, 0, 0);
+  margin-left: 2px;
+  font-size: 10px;
+}
+
+}
+
+@media (max-width: 480px) {
+  .toggle{
+    float:left;
+    overflow: hidden;
+    
+}
+/* Add padding and border to inner content
+for better animation effect */
+.toddle{
+    width: 400px;
+    padding: 10px;
+} 
+
+.image-container {
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.carousel-item {
+  width: auto;
+  height: auto;
+}
+
+.carousel-image {
+  width: auto;
+  height: auto;
+  object-fit: cover;
+}
+
+.inner_box { 
+  width: 20px; 
+  height: 100px;
+  margin-top: 30px;
+  background: rgb(0, 122, 252);
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+  }
+  .main-container1 {
+    display: flex;
+    position:sticky;
+    align-items: center;
+    justify-content: flex-end;
+    /* background-size: auto; */
+    background-size: 100% auto;
+  }
+  /* notification timmer */
+  .toddle1 {
+    width: 460px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 8%;
+    text-align: center;
+    color: #eceef0;
+    padding-top: 15px;
+    margin: 10rem 0;
+    position: relative;
+  }
+  /* NAV-BAR */
+.nav-item {
+  font-weight: bolder;
+  font-size: 11.5px;
+  color: black;
+  text-align: justify;
+}
+
+.nav-link {
+  color: black !important;
+}
+
+.btn {
+  border-radius: 2vw;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  height: auto;
+  font-size: 13px;
+}
+
+.navbar {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  border-radius: 0 0 2.5rem 2.5rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+}
+
+.navbar-brand {
+  margin-left: 2vw;
+}
 }
