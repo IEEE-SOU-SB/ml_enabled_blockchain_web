@@ -1,3 +1,5 @@
+
+
 var deadline = new Date("Jan 21, 2023 11:00:00").getTime();
 var x = setInterval(function() {
 var now = new Date().getTime();
@@ -39,3 +41,23 @@ else{
 		document.getElementById("demo").innerHTML = "EXPIRED";
 	}
 }, 1000);
+
+
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive"
+  } else {
+    x.className = "topnav";
+  }
+}
+
+/* Slider Timer */
+$(document).ready(function(){
+	$(".inner_box").click(function(){
+		$(".toggle").animate({
+			width: "toggle"				
+
+		});
+	});
+});
