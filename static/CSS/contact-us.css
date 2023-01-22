@@ -69,11 +69,11 @@ body
   background-color: white;
 }
 /* carousel */
-
 #slidy-container { 
   width: 100%;
   position:absolute;
-  overflow: hidden; margin: 0 auto;
+  overflow: hidden; 
+  margin: 0 auto;
   background-repeat: no-repeat;
 }
 
@@ -213,13 +213,12 @@ border-radius: 8px;
   font-size: 15px;
 }
 
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
+.nav-item a:hover {
+  color: rgb(27, 27, 27);
 }
 
 .topnav a.active {
-  background-color: #1089ff;
+  background-color: #2d8be9;
   color: white;
 }
 
@@ -240,6 +239,11 @@ border-radius: 8px;
   font-size: 10.5px;
   color: rgb(0, 0, 0);
 }
+.nav_img
+{
+  margin-left: 50vh;
+}
+
 .navbar h5
 {
   margin-right: 300px;
@@ -259,7 +263,15 @@ border-radius: 8px;
   {
     margin-right: 0px;
   }
-  
+  .nav_img
+{
+  margin-right: 100vh;
+}
+.nav_img
+{
+margin-left: 0vh;
+  margin-right: 0vh;
+}
 }
 
 @media screen and (max-width: 600px) {
@@ -274,13 +286,14 @@ border-radius: 8px;
     display: block;
     text-align: left;
   }
-  .navbar h5
+  .nav_img
   {
-    margin-right: 0px;
+  margin-left: 0vh;
+    margin-right: 0vh;
   }
   
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 992px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -290,10 +303,15 @@ border-radius: 8px;
   {
     margin-right: 0px;
   }
+  .nav_img
+  {
+  margin-left: 0vh;
+    margin-right: 0vh;
+  }
   
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 992px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
@@ -310,6 +328,14 @@ border-radius: 8px;
   {
     margin-right: 0px;
   }
+  .nav_img
+  {
+  margin-left: 0vh;
+    margin-right: 0vh;
+  }
   
   
 }
+
+
+/* event speaker */

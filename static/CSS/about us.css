@@ -1,0 +1,486 @@
+
+.section-container1
+{
+--bs-gutter-x: 1.5rem;
+--bs-gutter-y: 0;
+display: flex;
+flex-wrap: wrap;
+background-color: rgb(36, 36, 36);
+margin-top: 7vh;
+
+}
+.section-container1 .columns
+{
+flex:0 0 auto;
+width:50%;
+}
+
+.section-container1 .columns.image
+{
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+transition: 0.5s cubic-bezier(0.6, 0.03, 0.28, 0.98);  
+transform: scale(1);
+}
+.section-container1 .columns.image:hover{
+  transform: scale(1.05);
+  transition: 0.5s cubic-bezier(0.6, 0.03, 0.28, 0.98);
+}
+
+.section-container1 .columns.content .content-container
+{
+padding:40px 50px;
+color: white;
+}
+
+.section-container1 .columns.content .content-container h5
+{
+font-weight:700;
+font-size:40px;
+color: white;
+margin-bottom:20px;
+}
+.section-container1 .columns.content .content-container p
+{
+font-weight:400;
+font-size:16px;
+margin-bottom:20px;
+margin-bottom:15px;
+text-align:justify;
+}
+
+.section-container1 .box{
+  width: 500px;
+  height: 500px;
+  margin-top: 5vh;
+  margin-left: 10vh;
+  margin-bottom: 5vh;
+}
+.section-container1 .inside-image
+{
+  margin-top: 5vh;
+  margin-right:4vh;
+}
+
+@media screen and (max-width:767px)
+{
+.section-container1
+{
+flex-flow:row wrap;
+margin-top: 5vh;
+
+}
+.section-container1 .columns.image{
+display:block;
+order:1;
+width:50vh;
+height:350px;
+margin-left: 8vh;
+margin-bottom: 0vh;
+}
+.section-container1 .columns.content
+{
+display:block;
+order:2;
+width:100%;
+}
+.section-container1 .columns.content .content-container
+{
+padding:20px 35px;
+}
+.section-container1 .columns.content .content-container h5
+{
+margin-bottom:5px;
+}
+.section-container1 .box{
+    width: 100%;
+    height: 400px;
+    margin-top: 5vh;
+    margin-left: 17vh;
+    margin-bottom: 5vh;
+  }
+}
+
+
+
+
+
+
+/* Section 2*/
+
+
+.section-container2
+{
+--bs-gutter-x: 1.5rem;
+--bs-gutter-y: 0;
+display: flex;
+flex-wrap: wrap;
+}
+.section-container2 .columns
+{
+flex:0 0 auto;
+width:50%;
+}
+.section-container2 .columns.image
+{
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+transition: 0.5s cubic-bezier(0.6, 0.03, 0.28, 0.98);  
+transform: scale(1);
+}
+.section-container2 .columns.image:hover{
+  transform: scale(1.05);
+  transition: 0.5s cubic-bezier(0.6, 0.03, 0.28, 0.98);
+}
+.section-container2 .columns.content .content-container
+{
+padding:40px 50px;
+margin-left: 4vh;
+}
+.section-container2 .columns.content .content-container h5
+{
+font-weight:700;
+font-size:40px;
+margin-bottom:20px;
+}
+.section-container2 .columns.content .content-container p
+{
+font-weight:400;
+font-size:16px;
+margin-bottom:20px;
+margin-bottom:15px;
+text-align:justify;
+}
+
+.section-container2 .box{
+    width: 500px;
+    height: 500px;
+    margin-top: 5vh;
+    margin-left: 4vh;
+    margin-bottom: 5vh;
+    border-radius: 10vh;
+  }
+  .section-container2 .inside-image
+{
+  margin-top: 5vh;
+}
+
+@media screen and (max-width:767px)
+{
+.section-container2
+{
+flex-flow:row wrap;
+}
+.section-container2 .columns.image{
+display:block;
+order:1;
+width:50vh;
+height:350px;
+margin-left: 8vh;
+margin-bottom: 0vh;
+}
+.section-container2 .columns.content
+{
+display:block;
+order:2;
+width:100%;
+}
+.section-containe2 .columns.content .content-container
+{
+padding:20px 35px;
+}
+.section-container2 .columns.content .content-container h5
+{
+margin-bottom:5px;
+}
+
+
+}
+
+
+
+
+
+/* Section 3*/
+
+.section-container3
+{
+--bs-gutter-x: 1.5rem;
+--bs-gutter-y: 0;
+display: flex;
+flex-wrap: wrap;
+background-color: rgb(36, 36, 36);
+
+}
+.section-container3 .columns
+{
+flex:0 0 auto;
+width:50%;
+}
+.section-container3 .columns.image
+{
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+transition: 0.5s cubic-bezier(0.6, 0.03, 0.28, 0.98);  
+transform: scale(1);
+}
+.section-container3 .columns.image:hover{
+  transform: scale(1.05);
+  transition: 0.5s cubic-bezier(0.6, 0.03, 0.28, 0.98);
+}
+.section-container3 .columns.content .content-container
+{
+padding:40px 50px;
+color: white;
+}
+.section-container3 .columns.content .content-container h5
+{
+font-weight:700;
+font-size:40px;
+color: white;
+margin-bottom:20px;
+}
+.section-container3 .columns.content .content-container p
+{
+font-weight:400;
+font-size:16px;
+margin-bottom:20px;
+margin-bottom:15px;
+text-align:justify;
+}
+
+.section-container3 .box{
+    width: 500px;
+    height: 500px;
+    border: 2px rgb(255, 0, 0) solid;
+    margin-top: 5vh;
+    margin-left: 11vh;
+    margin-bottom: 5vh;
+  }
+  .section-container3 .inside-image
+{
+  margin-top: 5vh;
+  margin-right:4vh;
+}
+  
+@media screen and (max-width:767px)
+{
+.section-container3
+{
+flex-flow:row wrap;
+}
+.section-container3 .columns.image{
+display:block;
+order:1;
+width:50vh;
+height:350px;
+margin-left: 8vh;
+margin-bottom: 0vh;
+}
+.section-container3 .columns.content
+{
+display:block;
+order:3;
+width:100%;
+}
+.section-container3 .columns.content .content-container
+{
+padding:20px 35px;
+}
+.section-container3 .columns.content .content-container h5
+{
+margin-bottom:5px;
+}
+}
+
+
+
+/* Section 4*/
+
+
+.section-container4
+{
+--bs-gutter-x: 1.5rem;
+--bs-gutter-y: 0;
+display: flex;
+flex-wrap: wrap;
+}
+.section-container4 .columns
+{
+flex:0 0 auto;
+width:50%;
+}
+.section-container4 .columns.image
+{
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+transition: 0.5s cubic-bezier(0.6, 0.03, 0.48, 0.98);  
+transform: scale(1);
+}
+.section-container4 .columns.image:hover{
+  transform: scale(1.05);
+  transition: 0.5s cubic-bezier(0.6, 0.03, 0.48, 0.98);
+}
+.section-container4 .columns.content .content-container
+{
+padding:40px 50px;
+margin-left: 4vh;
+}
+.section-container4 .columns.content .content-container h5
+{
+font-weight:700;
+font-size:40px;
+margin-bottom:40px;
+}
+.section-container4 .columns.content .content-container p
+{
+font-weight:400;
+font-size:16px;
+margin-bottom:20px;
+margin-bottom:15px;
+text-align:justify;
+}
+
+.section-container4 .box{
+    width: 500px;
+    height: 500px;
+    border: 2px rgb(255, 0, 0) solid;
+    margin-top: 5vh;
+    margin-left: 4vh;
+    margin-bottom: 5vh;
+  }
+  .section-container4 .inside-image
+{
+  margin-top: 5vh;
+}
+
+@media screen and (max-width:767px)
+{
+.section-container4
+{
+flex-flow:row wrap;
+}
+.section-container4 .columns.image{
+display:block;
+order:1;
+width:50vh;
+height:350px;
+margin-left: 8vh;
+margin-bottom: 0vh;
+}
+.section-container4 .columns.content
+{
+display:block;
+order:4;
+width:100%;
+}
+.section-containe4 .columns.content .content-container
+{
+padding:20px 35px;
+}
+.section-container4 .columns.content .content-container h5
+{
+margin-bottom:5px;
+}
+}
+
+
+
+/* Section 5*/
+
+.section-container5
+{
+--bs-gutter-x: 1.5rem;
+--bs-gutter-y: 0;
+display: flex;
+flex-wrap: wrap;
+background-color: rgb(36, 36, 36);
+
+}
+.section-container5 .columns
+{
+flex:0 0 auto;
+width:50%;
+}
+.section-container5 .columns.image
+{
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+transition: 0.5s cubic-bezier(0.6, 0.03, 0.28, 0.98);  
+transform: scale(1);
+}
+.section-container5 .columns.image:hover{
+  transform: scale(1.05);
+  transition: 0.5s cubic-bezier(0.6, 0.03, 0.28, 0.98);
+}
+.section-container5 .columns.content .content-container
+{
+padding:40px 50px;
+color: white;
+}
+.section-container5 .columns.content .content-container h5
+{
+font-weight:700;
+font-size:40px;
+color: white;
+margin-bottom:20px;
+}
+.section-container5 .columns.content .content-container p
+{
+font-weight:400;
+font-size:16px;
+margin-bottom:20px;
+margin-bottom:15px;
+text-align:justify;
+}
+
+.section-container5 .box{
+    width: 500px;
+    height: 500px;
+    border: 2px rgb(255, 0, 0) solid;
+    margin-top: 5vh;
+    margin-left: 11vh;
+    margin-bottom: 5vh;
+  }
+  .section-container5 .inside-image
+{
+  margin-top: 5vh;
+  margin-right:4vh;
+}
+  
+@media screen and (max-width:767px)
+{
+.section-container5
+{
+flex-flow:row wrap;
+}
+.section-container5 .columns.image{
+display:block;
+order:1;
+width:50vh;
+height:350px;
+margin-left: 8vh;
+margin-bottom: 0vh;
+}
+.section-container5 .columns.content
+{
+display:block;
+order:5;
+width:100%;
+}
+.section-container5 .columns.content .content-container
+{
+padding:20px 55px;
+}
+.section-container5 .columns.content .content-container h5
+{
+margin-bottom:5px;
+}
+}
+
+
