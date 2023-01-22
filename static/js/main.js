@@ -32,3 +32,24 @@
 	contactForm();
 
 })(jQuery);
+
+/* Send Contact Us data to google Sheet */
+
+function SubForm (){
+	$.ajax({
+		
+		url:"https://api.apispreadsheets.com/data/HElm2IP61z5wMYCb/",
+		type:"post",
+		data:$("#contactForm").serializeArray(),
+		success: function(){
+				alert("Form Data Submitted :)")
+			 document.contactForm.reset();
+
+			
+		},
+		error: function(){
+			alert("There was an error :(")
+		}
+	});
+}
+
