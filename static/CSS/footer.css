@@ -97,8 +97,9 @@
     text-align:center
   }
   .footer-links{
-    width: 10px;
+    width: 100%;
   }
+  
 
 }
 .social-icons

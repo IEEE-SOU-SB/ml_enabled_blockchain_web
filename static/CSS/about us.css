@@ -70,13 +70,17 @@ color: rgb(199, 198, 198);
 .section-container1
 {
 flex-flow:row wrap;
-margin-top: 5vh;
+margin-top: 0vh;
 
+}
+.about
+{
+  padding-top: 0vh;
 }
 .section-container1 .columns.image{
 display:block;
 order:1;
-width:50vh;
+width: 350px;
 height:350px;
 margin-left: 3vh;
 margin-bottom: 0vh;
@@ -85,7 +89,7 @@ margin-bottom: 0vh;
 {
 display:block;
 order:2;
-width:100%;
+width: 100%;
 }
 .section-container1 .columns.content .content-container
 {
@@ -99,7 +103,6 @@ margin-bottom:5px;
     width: 100%;
     height: 400px;
     margin-top: 3vh;
-    margin-left: 17vh;
     margin-bottom: 5vh;
   }
 }
@@ -139,7 +142,7 @@ transform: scale(1);
 .section-container2 .columns.content .content-container
 {
 padding:40px 50px;
-margin-left: 4vh;
+margin-left: 0vh;
 }
 .section-container2 .columns.content .content-container h5
 {
@@ -151,7 +154,6 @@ margin-bottom:20px;
 {
 font-weight:400;
 font-size:16px;
-margin-bottom:20px;
 margin-bottom:15px;
 text-align:justify;
 color: rgb(72, 72, 72);
@@ -179,16 +181,15 @@ flex-flow:row wrap;
 .section-container2 .columns.image{
 display:block;
 order:1;
-width:50vh;
+width: 350px;
 height:350px;
-margin-left: 3vh;
 margin-bottom: 0vh;
 }
 .section-container2 .columns.content
 {
 display:block;
 order:2;
-width:100%;
+width: 100%;
 }
 .section-containe2 .columns.content .content-container
 {
@@ -198,7 +199,10 @@ padding:20px 35px;
 {
 margin-bottom:5px;
 }
-
+.section-container3 .inside-box
+{
+  margin-left: 2vh;
+}
 
 }
 
@@ -227,13 +231,12 @@ width:50%;
 background-position:center;
 background-repeat:no-repeat;
 background-size:cover;
+
 }
 .section-container3 .columns.content .content-container
 {
 padding:40px 50px;
 color: white;
-
-
 }
 .section-container3 .columns.content .content-container h5
 {
@@ -255,44 +258,50 @@ color: rgb(199, 198, 198);
 }
 
 .section-container3 .box{
-    width: 300px;
-    height: 400px;
+    width: 200px;
+    height: 300px;
     margin-top: 12vh;
-    margin-left: 11vh;
-    margin-bottom: 1.2vh;
+    margin-bottom: 0.4vh;
     -webkit-filter: drop-shadow(3px 3px 3px rgb(144, 203, 238) );
     filter: drop-shadow(4px -2px 4px rgb(144, 203, 238));
     border-radius: 50px 50px 0px 0px;
   }
-.section-container3 .inside-image
-{
-  margin-top: -6vh;
-  margin-right:4vh;
-  margin-bottom: 5vh;
-}
 
-.section-container3 h1
+  .section-container4 h3
+  {
+    font-size: 4px;
+  }
+.section-container3 .name
 {
   text-align: center;
-  margin-left: 11vh;
-  background-color: rgb(234, 234, 234);
+  background-color: rgb(104, 104, 104);
   margin-top: 0;
-  color: rgb(0, 0, 0);
-  -webkit-filter: drop-shadow(3px 3px 3px rgb(144, 203, 238) );
-    filter: drop-shadow(3px 3px 3px rgb(144, 203, 238));
-  border-radius: 0px 0px 100px 100px;
+  padding-bottom: 3vh;
+  margin-bottom: 5vh;
+  color: rgb(255, 255, 255);
+  -webkit-filter: drop-shadow(5px 5px 5px rgb(116, 204, 255) );
+    filter: drop-shadow(5px 5px 5px rgb(116, 204, 255));
+  border-radius: 0px 0px 40px 40px;
 }
-.inside-box
+.section-container3 .speaker-name 
+{
+  margin-left:10.8vh ;
+}
+.section-container3 .inside-box
 {
   transition: 0.5s cubic-bezier(0.6, 0.03, 0.28, 0.98);  
 transform: scale(1);
 }
-.inside-box:hover
+.section-container3 .inside-box:hover
 {
   transform: scale(1.05);
   transition: 0.5s cubic-bezier(0.6, 0.03, 0.28, 0.98);
 }
   
+.section-container3 .speaker-name .name h3
+{
+  font-size: 14px;
+}
 @media screen and (max-width:767px)
 {
 .section-container3
@@ -302,9 +311,8 @@ flex-flow:row wrap;
 .section-container3 .columns.image{
 display:block;
 order:1;
-width:43vh;
+width:30vh;
 height:400px;
-margin-left: 6.5vh;
 margin-bottom: 0.5vh;
 }
 .section-container3 .columns.content
@@ -320,129 +328,44 @@ padding:20px 35px;
 .section-container3 .columns.content .content-container h5
 {
 margin-bottom:5px;
+font-size: 26px;
 }
-.section-container3 h1{
-  margin-left: 6.5vh;
+.section-container3 .name{
+  width: 30vh;
 }
-}
-
-
-
-/* Section 4*/
-
-
-.section-container4
-{
---bs-gutter-x: 1.5rem;
---bs-gutter-y: 0;
-display: flex;
-flex-wrap: wrap;
-}
-.section-container4 .columns
-{
-flex:0 0 auto;
-width:50%;
-}
-.section-container4 .columns.image
-{
-background-position:center;
-background-repeat:no-repeat;
-background-size:cover;
-}
-.section-container4 .columns.content .content-container
-{
-padding:40px 50px;
-margin-left: 4vh;
-}
-.section-container4 .columns.content .content-container h5
-{
-font-weight:700;
-font-size:40px;
-margin-bottom:40px;
-}
-.section-container4 .columns.content .content-container p
-{
-font-weight:400;
-font-size:16px;
-margin-bottom:20px;
-margin-bottom:15px;
-text-align:justify;
-color: rgb(72, 72, 72);
-
 }
 
-.section-container4 .box{
-  width: 300px;
-  height: 400px;
-  margin-top: 12vh;
-  margin-left: 11vh;
-  margin-bottom: 1vh;
-  -webkit-filter: drop-shadow(3px 3px 3px rgb(144, 203, 238) );
-    filter: drop-shadow(4px -2px 4px rgb(144, 203, 238));
-  border-radius: 50px 50px 0px 0px;
-  }
-  .section-container4 .inside-image
+@media screen and (max-width:1440px)
 {
- 
-  margin-top: -6vh;
-  margin-right:4vh;
-  margin-bottom: 5vh;
-
-}
-.section-container4 h1
-{
-  text-align: center;
-  margin-left: 11vh;
-  background-color: rgb(104, 104, 104);
-  margin-top: 0;
-  color: rgb(255, 255, 255);
-  -webkit-filter: drop-shadow(5px 5px 5px rgb(116, 204, 255) );
-    filter: drop-shadow(5px 5px 5px rgb(116, 204, 255));
-  border-radius: 0px 0px 100px 100px;
-}
-.inside-box
-{
-  transition: 0.5s cubic-bezier(0.6, 0.03, 0.28, 0.98);  
-transform: scale(1);
-}
-.inside-box:hover
-{
-  transform: scale(1.05);
-  transition: 0.5s cubic-bezier(0.6, 0.03, 0.28, 0.98);
-}
-
-@media screen and (max-width:767px)
-{
-.section-container4
+.section-container3
 {
 flex-flow:row wrap;
 }
-.section-container4 .columns.image{
+.section-container3 .inside-image
+{
+  width: 50vh;
+}
+.section-container3 .columns.image{
 display:block;
 order:1;
-width:43vh;
-height:400px;
-margin-left: 6.5vh;
-margin-bottom: 0vh;
+height: 35vh;
+width: 30vh;
+margin-right: 26vh;
+}
 
-}
-.section-container4 .columns.content
+.section-container3 .speaker-name 
 {
-display:block;
-order:4;
-width:100%;
+  width: 28vh;
 }
-.section-containe4 .columns.content .content-container
-{
-padding:20px 35px;
 
-}
-.section-container4 .columns.content .content-container h5
+.section-container3 .name .pedding span
 {
-margin-bottom:5px;
+
+  padding: 0vh 0vh 0vh 0vh;
 }
-.section-container4 h1{
-  margin-left: 6.5vh;
+.section-container3 .name{
+  width: 30vh;
+  
 }
 }
 

@@ -7,7 +7,6 @@
   background-color: #fcfcfc;
 }
 body
-
 {
   width: auto;
   height: auto;
@@ -35,11 +34,25 @@ body
   font-size: 16px;
   
 }
-.contact-us .btn
-  {
-    margin-left: 35vh;
-  }
+.contactus-container { 
+  height: 40px;
+  position: relative;
+  
+}
 
+.center-button {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.bg-primary {
+  background: #1089ff !important;
+  border-radius: 2vw;
+
+}
 
 .main-container1 {
   display: flex;
@@ -202,6 +215,7 @@ box-shadow: 0 1px 2px rgba(0,0,0,0.15);
 border-radius: 8px;
 }
 
+
 /* Navigation */
 
 .topnav {
@@ -239,14 +253,11 @@ border-radius: 8px;
   background-color: rgba(255, 255, 255, 1);
   text-align: center;
 }
+
 .nav-item {
   font-weight: bolder;
   font-size: 10.5px;
   color: rgb(0, 0, 0);
-}
-.navbar-img
-{
-  margin-left: 62vh;
 }
 
 .navbar h5
@@ -255,17 +266,12 @@ border-radius: 8px;
   margin-right: 29vh;
 }
 
-.navbar-brand {
-  margin-left: 2vw;
-}
-
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 700px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
     display: block;
   }
-  
   .navbar h5
   {
     margin-right: 0px;
@@ -274,13 +280,13 @@ border-radius: 8px;
   {
     margin-left: -2.5vh;
   }
-
+  
   .navbar span{
     margin-left: -0.5vh;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
@@ -292,41 +298,18 @@ border-radius: 8px;
     display: block;
     text-align: left;
   }
-  .nav_img
-  {
-  margin-left: 0vh;
-    margin-right: 0vh;
-  }
-  .contact-us .btn
-  {
-    margin-left: 23vh;
-  }
-  
 }
+
 @media screen and (max-width: 1440px) {
-  .topnav.responsive {
-    position: relative;
-  }
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-   
-      float: left;
-      display: block;
-      text-align: center;
-  }
-  .navbar-img
-{
-  margin-left: 32vh;
-}
 .about
 {
-  margin-top: 20vh;
+  padding-top: 13vh;
 }
-  
+.navbar-img
+{
+  float: right;
+}
+
 }
 
 
