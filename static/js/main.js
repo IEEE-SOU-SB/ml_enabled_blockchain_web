@@ -42,7 +42,7 @@ function SubForm (){
 		type:"post",
 		data:$("#contactForm").serializeArray(),
 		success: function(){
-				alert("Form Data Submitted :)")
+				alert("Your Inquiry Submitted 😊 We will be contacting you very soon 🕛")
 			 document.contactForm.reset();
 
 			

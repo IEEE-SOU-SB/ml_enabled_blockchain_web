@@ -33,8 +33,12 @@ body
   margin-bottom: 1vh;
   height: auto;
   font-size: 16px;
-  margin-left: 35vh;
+  
 }
+.contact-us .btn
+  {
+    margin-left: 35vh;
+  }
 
 
 .main-container1 {
@@ -254,25 +258,25 @@ border-radius: 8px;
   margin-left: 2vw;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
     display: block;
   }
+  
   .navbar h5
   {
     margin-right: 0px;
   }
-  .nav_img
-{
-  margin-right: 100vh;
-}
-.nav_img
-{
-margin-left: 0vh;
-  margin-right: 0vh;
-}
+  .navbar .nav_img
+  {
+    margin-left: -2.5vh;
+  }
+
+  .navbar span{
+    margin-left: -0.5vh;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -292,7 +296,7 @@ margin-left: 0vh;
   margin-left: 0vh;
     margin-right: 0vh;
   }
-  .btn
+  .contact-us .btn
   {
     margin-left: 23vh;
   }
