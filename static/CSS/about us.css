@@ -6,7 +6,6 @@
 display: flex;
 flex-wrap: wrap;
 background-color: rgb(36, 36, 36);
-margin-top: 7vh;
 
 }
 .section-container1 .columns
@@ -73,10 +72,7 @@ flex-flow:row wrap;
 margin-top: 0vh;
 
 }
-.about
-{
-  padding-top: 0vh;
-}
+
 .section-container1 .columns.image{
 display:block;
 order:1;
@@ -199,7 +195,7 @@ padding:20px 35px;
 {
 margin-bottom:5px;
 }
-.section-container3 .inside-box
+.section-container2 .inside-box
 {
   margin-left: 2vh;
 }
@@ -207,18 +203,33 @@ margin-bottom:5px;
 }
 
 
+/* Speakers */
+.about .section-container3
+{
+  background-color: rgb(210, 210, 210);
+}
 
 .container-about{
-  width: 100%;
   position: relative;
   display: flex;
   justify-content: space-between;
+  width:100%;
+  margin:0px auto;
+}
+/* Float three columns side by side */
+.column {
+  float: left;
+  width: 19.3%;
+  padding: 0 10px;
+  margin:0 auto;
+
 }
 
 .container-about .card{
   position: relative;
   cursor: pointer;
-  margin-left: 5vh;
+  margin-left: 0vh;
+  margin:0px auto;
   margin-bottom: 3vh;
 }
 
@@ -300,25 +311,13 @@ margin-bottom:5px;
   color: #fff;
 }
 
+.row {
+  font-style: normal;
+  font-size: medium;
+  display: flex;
 
-
-
-/* Speakers */
-.about .section-container3
-{
-  background-color: rgb(210, 210, 210);
 }
 
-.container-about{
-  width:900px;
-  margin:0px auto;
-}
-/* Float three columns side by side */
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 0 10px;
-}
 
 /* Remove extra left and right margins, due to padding */
 
@@ -351,6 +350,12 @@ margin-bottom:5px;
     height: 300px;
     width: 50%;
   }
+  .container-about .row
+  {
+    margin-left: 0vh;
+    margin-right: 0vh;
+  }
+  
 }
 
 /* Style the counter cards */

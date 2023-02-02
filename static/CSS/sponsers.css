@@ -1,7 +1,7 @@
 .spo {
   width: 100%;
   text-align: center;
-  background-color: rgb(230, 228, 228);
+  background-color: rgb(231, 231, 231);
 }
 .spo .box1{
   margin: 0 auto;
@@ -16,39 +16,13 @@
   transition: box-shadow .3s;
 
 }
-.spo .box1:hover, .box1-1:hover, .box2:hover
+.spo .box1:hover
 {
   box-shadow: 0 0 11px rgb(95, 196, 255); 
   -webkit-filter: drop-shadow(0px 0px 0px rgb(108, 108, 108) );
   filter: drop-shadow(0px 0px 0px 0px rgb(108, 108, 108));
 }
 
-.spo .box1-1{
-  margin: 0 auto;
-  max-width: 200px;
-  height: 200px;
-  margin-top: 5vh;
-  margin-bottom: 5vh;
-  -webkit-filter: drop-shadow(5px 5px 5px rgb(108, 108, 108) );
-  filter: drop-shadow(5px -2px 20px 5px rgb(108, 108, 108));
-  background-color:rgb(255, 255, 255);
-  border-radius: 5vh;
-  transition: box-shadow .3s;
-  
-}
-
-.spo .box2{
-  margin: 0 auto;
-  max-width: 200px;
-  height: 200px;
-  margin-top: 5vh;
-  margin-bottom: 5vh;
-  -webkit-filter: drop-shadow(5px 5px 5px rgb(108, 108, 108) );
-  filter: drop-shadow(5px -2px 20px 5px rgb(108, 108, 108));
-  background-color:rgb(255, 255, 255);
-  border-radius: 5vh;
-  transition: box-shadow .3s;
-}
 .spo .spo-img1-1
 {
   display: block;
@@ -58,7 +32,8 @@
 .spo .spo-img
 {
   margin-top: 1vh;
-  width: 200px; height: 180px;
+  margin-left: -8px;
+  width: 200px; height: 200px;
 }
 .spo .spo-img1
 {
@@ -69,23 +44,22 @@
 {
   background-color: rgb(111, 111, 111);
   color: white;
-  border-radius: 40px 40px 0px 0px;
-  height: 10vh;
-  
-  -webkit-filter: drop-shadow(5px 5px 5px rgb(116, 204, 255) );
-    filter: drop-shadow(5px 5px 5px rgb(116, 204, 255));
+  width: 100%;
+  border-radius: 10vh 10vh 0vh 0vh;
+  -webkit-filter: drop-shadow(4px 4px 4px rgb(116, 204, 255) );
+    filter: drop-shadow(4px 4px 4px rgb(116, 204, 255));
 }
 
 .spo-columns {
   width: 20%;
   min-width: 280px;
   vertical-align: top;/*Fix for different     height elements*/
-  margin-bottom: 10px;
+  margin-bottom: 1vh;
   margin-top: 1vh;
   display: inline-block;
-  background-color: #f4f4f4;
+  background-color: #ffffff;
   color: #fff;
-  border-radius: 10vh;
+  border-radius: 6vh 6vh 6vh 6vh;
   margin: 3vh;
  }
 .align-right {
@@ -93,8 +67,9 @@
 }
 @media screen and (max-width: 680px) {
   .spo-columns {
-    width: 100%; 
-  margin: 0vh;
+    width: 80%; 
+  margin: 0 auto;
+  margin: 3vh 0vh 3vh 0vh;
 
   }
 }
