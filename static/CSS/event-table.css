@@ -1,58 +1,79 @@
-.styled-table {
-    border-collapse: collapse;
-    margin: 25px 0;
-    font-family: sans-serif;
-    width: 70%;
-    min-width: 60%;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-    text-align: center;
-    border: 1px 1px 1px #5199ff;
-    font-size: 14px;
-    border: 2px solid #6cbaff;
-    align-items: center;
+  .event-container {
+    font-family: 'Roboto', sans-serif;
+    flex-wrap: wrap;
+    max-width: 800px;
     margin: 0 auto;
-}
-  styled-table thead tr {
-    background-color: #6cbaff;
-    color: #ffffff;
-    text-align: left;
   }
-  .styled-table th,
-  .styled-table td {
-      padding: 8px 15px;
-      text-align: center;
-    
-      
-  }
-  
-  .styled-table tbody tr, td,th{
-    border-top: 1.6px dashed rgb(177, 177, 177);
-	border-right: 1.6px dashed rgb(177, 177, 177) ;
-  }
-  .styled-table tbody th {
-    border: 1.6px black;
-  }
-  
-  .styled-table tbody tr:nth-of-type(even) {
-    background-color: #f3f3f3;
-  }
-  
-  
-  .styled-table tbody tr.active-row {
-    color: #6cbaff;
-  }
-  .event-head
-  {
-    text-align: center;
-    font-size: 24px;
-  }
-  @media screen and (max-width:767px)
-  {
-    .styled-table
-    {
+  .event-container .single-box {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
     width: 100%;
-    margin: 0 auto;
-    }
-
-    
   }
+  .event-container .date-area {
+    display: flex;
+    background: linear-gradient(to right, #e7e7e7 45%, #000 45%, #000 45%, #e7e7e7 50%);
+    order: 2;
+    text-align: center;
+    color: #ffffff;
+    font-size: 28px;
+    flex-basis: 100px;
+  }
+  
+  .event-container p{
+    font-size: 15px;
+  }
+  .event-container .date-area>span {
+    font-size: 16px;
+    line-height: 70px;
+    margin: auto;
+    background: #14b6c1;
+    width: auto;
+    height: 70px;
+    border-radius: 50%;
+  }
+  .event-container .content {
+    text-align: center;
+    padding: 20px;
+    border-radius: 25px;
+    color: #ffffff;
+    order: 3;
+    width: 80%;
+    padding-left: 10px;
+    background: #505050;
+  }
+  .event-container .content {
+    margin-bottom: 3%;
+  }
+  .event-container  .content h1 {
+
+    color: white;
+    font-size: 19px;
+
+  }
+  .event-container  .content h2 {
+    margin: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: white;
+
+  }
+  .event-container  .content h3 {
+    margin: 5px;
+    font-size: 14px;
+    color: #ffffff;
+  }
+  @media (min-width: 640px) {
+    .event-container  .content, .custom {
+      width: 40%;
+    }
+    .event-container .box-right .content {
+      order: 1;
+      padding-right: 10px;
+      border-radius: 25px;
+    }
+    .event-container .box-right .custom {
+      order: 3;
+    }
+  }
+  

@@ -1,0 +1,10 @@
+.leftside
+{
+    display: flex;
+    padding-left: 10vh;
+}
+.rightside
+{
+    display: flex;
+    margin-left:auto;
+}
