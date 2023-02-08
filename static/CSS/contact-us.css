@@ -81,17 +81,24 @@
   z-index: 2;
 }
 /* notification timmer */
+.toggle{
+  float:right;
+  overflow:hidden;
+  display: none;
+}
 .toddle1 {
   width: 350px;
   height: 250px;
   background-color: rgba(0, 0, 0, 0.6);
-  border-radius: 8%;
+  border-radius: 8% 0% 0% 8%;
   text-align: center;
   color: #eceef0;
   padding-top: 15px;
   position: relative;
   display:block;
+
 }
+
 .toddle1 h3, h4, #date
 {
   color: rgb(255, 255, 255);
@@ -105,11 +112,7 @@
   background-color: white;
 }
 
-.toggle{
-  float:right;
-  overflow: hidden;
-  
-}
+
 /* Add padding and border to inner content
 for better animation effect */
 .toddle{
@@ -117,24 +120,10 @@ for better animation effect */
   padding: 10px;
 }
 .white-box{
-  width:20px;
-  height: 255px;
-}
+  width:50px;
+  height: 250px;
+border-radius: 0% 8% 8% 0%;
 
-.inner_box { 
-width: 20px; 
-height: 100px;
-margin-top: 80px;
-position: relative;
-background: rgb(0, 122, 252);
--webkit-box-shadow: 2px 1px 0px rgba(0,0,0,0.15);
--moz-box-shadow: 2px 1px 0px rgba(0,0,0,0.15);
-box-shadow: 2px 1px 0px rgba(0,0,0,0.15);
--webkit-border-radius: 8px;
--moz-border-radius: 8px;
--ms-border-radius: 8px;
--o-border-radius: 8px;
-border-radius: 8px;
 }
 .main-container1{
   animation: 3s slide-right;
@@ -147,6 +136,25 @@ border-radius: 8px;
     margin-left: 0%;
   }
 }
+.inner_box { 
+width: 50px; 
+height: 250px;
+position: relative;
+background: rgb(0, 122, 252);
+-webkit-box-shadow: 2px 1px 0px rgba(0,0,0,0.15);
+-moz-box-shadow: 2px 1px 0px rgba(0,0,0,0.15);
+box-shadow: 2px 1px 0px rgba(0,0,0,0.15);
+}
+
+/*
+.slide-font p
+{
+  font-size: 30px;
+  line-height: 22px;
+  color: white;
+  text-align: center;
+}
+*/
 /* carousel */
 #slidy-container { 
   width: 100%;
