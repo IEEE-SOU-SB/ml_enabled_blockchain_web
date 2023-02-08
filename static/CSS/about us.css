@@ -204,26 +204,7 @@ margin-bottom:5px;
 
 
 /* Speakers */
-.about .section-container3
-{
-  background-color: rgb(210, 210, 210);
-}
 
-.container-about{
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  width:100%;
-  margin:0px auto;
-}
-/* Float three columns side by side */
-.column {
-  float: left;
-  width: 19.3%;
-  padding: 0 10px;
-  margin:0 auto;
-
-}
 
 .container-about .card{
   position: relative;
@@ -320,7 +301,26 @@ margin-bottom:5px;
 
 
 /* Remove extra left and right margins, due to padding */
+.about .section-container3
+{
+  background-color: rgb(210, 210, 210);
+}
 
+.container-about{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width:100%;
+  margin:0px auto;
+}
+/* Float three columns side by side */
+.column {
+  float: left;
+  width: 23.3%;
+  padding: 0 10px;
+  margin:0 auto;
+
+}
 /* Clear floats after the columns */
 .row:after {
   content: "";
